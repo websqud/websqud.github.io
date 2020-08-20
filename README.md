@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<html>
+<title>Getstarted</title>
+<h1>Hi There!</h1>
+<body>
+<a href="https://tce.edu">link to tce...<br></a>
+<hr height=6>
+<table border=5 align=center cellspacing=3 celpadding=10 >
+<caption valign=bottom align=center>students mark details</caption>
+<tr>
+<th rowspan=2>sno<th rowspan=2>sname<th colspan=2>marks
+<tr>
+<th>internal<th>external
+<tr>
+<td>1<td>John<td>40<td>42
+<tr>
+<td>5<td>Rohan<td>41<td>45
+<tr>
+</table>
+<hr height=5>
 
-You can use the [editor on GitHub](https://github.com/websqud/websqud.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/websqud/websqud.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<table align=center>
+<form method=post action="">
+<td>USERNAME:<td><input type="text" name="uname"><tr>
+<td>PASSWORD:<td><input type="Password" name="pword"><tr>
+<td>ADDRESS:<td><textarea name="add" rows="5" cols="30">
+</textarea><tr>
+<td>GENDER:<td><input type="radio" name="sex" value="M">MALE
+<input type="radio" name="sex" value="F">FEMALE<tr>
+<td>QUALIFICATION:<td><select name="q">
+<option value="10">10th
+<option value="12">12th
+<option value="ug">UG
+<option value="pg">PG
+</select>
+<tr>
+<td><input type=submit value="submit"><td><input type=reset value="reset">
+<tr>
+</table>
+<hr height=5>
+<marquee>SEE YOU AGAIN!! : )</marquee>
+</body>
+</html>
