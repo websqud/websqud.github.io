@@ -1,42 +1,49 @@
-<html>
-<title>Getstarted</title>
-<h1>Hi There!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Final project</title>
+</head>
 <body>
-<a href="https://tce.edu">link to tce...<br></a>
-<hr height=6>
-<table border=5 align=center cellspacing=3 celpadding=10 >
-<caption valign=bottom align=center>students mark details</caption>
-<tr>
-<th rowspan=2>sno<th rowspan=2>sname<th colspan=2>marks
-<tr>
-<th>internal<th>external
-<tr>
-<td>1<td>John<td>40<td>42
-<tr>
-<td>5<td>Rohan<td>41<td>45
-<tr>
-</table>
-<hr height=5>
 
-<table align=center>
-<form method=post action="">
-<td>USERNAME:<td><input type="text" name="uname"><tr>
-<td>PASSWORD:<td><input type="Password" name="pword"><tr>
-<td>ADDRESS:<td><textarea name="add" rows="5" cols="30">
-</textarea><tr>
-<td>GENDER:<td><input type="radio" name="sex" value="M">MALE
-<input type="radio" name="sex" value="F">FEMALE<tr>
-<td>QUALIFICATION:<td><select name="q">
-<option value="10">10th
-<option value="12">12th
-<option value="ug">UG
-<option value="pg">PG
-</select>
-<tr>
-<td><input type=submit value="submit"><td><input type=reset value="reset">
-<tr>
-</table>
-<hr height=5>
-<marquee>SEE YOU AGAIN!! : )</marquee>
+<header><h1>LET'S HAVE FUN, ARE YOU READY!</h1>
+<nav>
+<a href="http://www.google.co.in">Google</a>
+<a href="http://www.wikipedia.org">Wikipedia</a>
+<a href="http://www.youtube.com">Youtube</a>
+<a href="http://www.instagram.com">Login with Instagram</a>
+</nav>
+</header>
+
+<section>
+<h2>Favorite Foods</h2>
+<ul>
+<li>Idly</li>
+<li>Milk Shake</li>
+<li>Coffee</li>
+<li>Biriyani</li>
+</ul>
+</section>
+
+<section>
+<h2>Achievements</h2>
+Progress in this course (100%)<progress max="100" value="100"></progress><br>
+Progress in this Specialisation capstone (20%)<progress max="100" value="20"></progress><br>
+Progress in life goals (70%)<progress max="100" value="70"></progress><br>
+</section>
+
+<section>
+<h2>More About Me</h2>
+<details>
+<summary>My Childhood</summary>
+I grew up in Madurai and i had my school, nearby my home. I were enjoyed those days and loved my studies!!
+</details>
+</section>
+
+<footer>
+<img src="http://intro-webdesign.com/images/newlogo.png" alt="Web design for everybody">
+This page was created by Me & Colleen van Lent. To learn more about web design, visit
+<a href="http://intro-webdesign.com">Intro to Web Design</a>.
+</footer>
 </body>
 </html>
